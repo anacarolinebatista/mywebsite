@@ -1,12 +1,16 @@
+body *{
+    font-family: "Inter",sans-serif;
+    color: white;
+}
+
 body{
     text-align: center;
     margin: auto;
     margin-top: 10px;
     width: 22rem;
     background-image: url("assets/bg-mobile.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main{
@@ -20,6 +24,10 @@ body{
     text-align: center;
 }
 
+.head h2{
+     font-weight: 500;
+}
+
 .ana{
     margin-top: 7px;
     border-radius: 95px;
@@ -27,12 +35,10 @@ body{
 }
 
 a {
-    color: white;
     text-decoration: none;
 }
 
 .head > p {
-    color: white;
     font-size: 1rem;
 }
 
@@ -47,12 +53,12 @@ a {
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    color: black;
     padding: 5px;
 }
 
 .links > a> h2{
     display: inline;
+    color: black;
 }
 
 .links > a:hover{
