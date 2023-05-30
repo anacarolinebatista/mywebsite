@@ -3,7 +3,6 @@ body{
     margin: auto;
     margin-top: 10px;
     width: 22rem;
-    border-radius: 10px;
     background-image: url("assets/bg-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,6 +11,7 @@ body{
 
 .main{
     border: 2.5px solid #e5b0a0;
+    border-radius: 10px;
 }
 
 .head{
