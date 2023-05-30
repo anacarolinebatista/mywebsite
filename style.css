@@ -1,13 +1,17 @@
 body{
+    text-align: center;
     margin: auto;
     margin-top: 10px;
     width: 22rem;
-    border: 2.5px solid #e5b0a0;
     border-radius: 10px;
     background-image: url("assets/bg-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    border: 2.5px solid #e5b0a0;
 }
 
 .head{
@@ -54,4 +58,13 @@ a {
 .links > a:hover{
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.7);
+}
+
+.merchan{
+    color: white;
+}
+
+.merchan > a{
+    color: lightblue;
+    text-decoration:underline;
 }
